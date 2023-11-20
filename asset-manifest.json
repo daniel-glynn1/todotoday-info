@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccc00bd7.css",
-    "main.js": "/static/js/main.589a4dc2.js",
-    "static/js/787.381d4680.chunk.js": "/static/js/787.381d4680.chunk.js",
-    "static/media/rest_day.png": "/static/media/rest_day.a6f80a528881762da876.png",
-    "static/media/home_list_view.png": "/static/media/home_list_view.60d6fff1e84dd2b1d806.png",
-    "static/media/home_completed.png": "/static/media/home_completed.2819fd690e58e6441055.png",
-    "static/media/home_screen.png": "/static/media/home_screen.2d4f6b4f0ff431444a44.png",
-    "static/media/monthly_view.png": "/static/media/monthly_view.79a53ac8d1f7c1378e65.png",
-    "static/media/journal_view.png": "/static/media/journal_view.9047b91af7bcd0a52395.png",
-    "static/media/badges_view.png": "/static/media/badges_view.26585dac2a942ae4f59f.png",
-    "static/media/weekly_view.png": "/static/media/weekly_view.b03b7b6e65c0a479dd22.png",
-    "static/media/home_compact_view.png": "/static/media/home_compact_view.3b6d506428036fc986b8.png",
-    "static/media/app_icon.png": "/static/media/app_icon.4557360a45c98fb83906.png",
-    "index.html": "/index.html",
-    "main.ccc00bd7.css.map": "/static/css/main.ccc00bd7.css.map",
-    "main.589a4dc2.js.map": "/static/js/main.589a4dc2.js.map",
-    "787.381d4680.chunk.js.map": "/static/js/787.381d4680.chunk.js.map"
+    "main.css": "/todotoday-info/static/css/main.ccc00bd7.css",
+    "main.js": "/todotoday-info/static/js/main.717d53c3.js",
+    "static/js/787.381d4680.chunk.js": "/todotoday-info/static/js/787.381d4680.chunk.js",
+    "static/media/rest_day.png": "/todotoday-info/static/media/rest_day.a6f80a528881762da876.png",
+    "static/media/home_list_view.png": "/todotoday-info/static/media/home_list_view.60d6fff1e84dd2b1d806.png",
+    "static/media/home_completed.png": "/todotoday-info/static/media/home_completed.2819fd690e58e6441055.png",
+    "static/media/home_screen.png": "/todotoday-info/static/media/home_screen.2d4f6b4f0ff431444a44.png",
+    "static/media/monthly_view.png": "/todotoday-info/static/media/monthly_view.79a53ac8d1f7c1378e65.png",
+    "static/media/journal_view.png": "/todotoday-info/static/media/journal_view.9047b91af7bcd0a52395.png",
+    "static/media/badges_view.png": "/todotoday-info/static/media/badges_view.26585dac2a942ae4f59f.png",
+    "static/media/weekly_view.png": "/todotoday-info/static/media/weekly_view.b03b7b6e65c0a479dd22.png",
+    "static/media/home_compact_view.png": "/todotoday-info/static/media/home_compact_view.3b6d506428036fc986b8.png",
+    "static/media/app_icon.png": "/todotoday-info/static/media/app_icon.4557360a45c98fb83906.png",
+    "index.html": "/todotoday-info/index.html",
+    "main.ccc00bd7.css.map": "/todotoday-info/static/css/main.ccc00bd7.css.map",
+    "main.717d53c3.js.map": "/todotoday-info/static/js/main.717d53c3.js.map",
+    "787.381d4680.chunk.js.map": "/todotoday-info/static/js/787.381d4680.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccc00bd7.css",
-    "static/js/main.589a4dc2.js"
+    "static/js/main.717d53c3.js"
   ]
 }
