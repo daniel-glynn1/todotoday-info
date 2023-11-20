@@ -1,0 +1,105 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-grow: 1;
+}
+
+.homeMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.homeDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.screenshotBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.screenshot {
+  width: 200px;
+  /* border: 1px solid var(--text); */
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--fourth);
+}
+
+.homeFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  gap: 15px; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: var(--fill);
+  margin-top: auto;
+  
+}
+
+.appLink {
+  background-color: var(--fourth);
+  color: var(--text);
+  font-weight: bold;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 750px) {
+  .homeMain {
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .homeDescription {
+    gap: 15px;
+  }
+
+  .homeFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .appLink {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.75rem;
+  }
+
+  .screenshotBox {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
