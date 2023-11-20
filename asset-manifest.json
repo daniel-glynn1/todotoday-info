@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/todotoday-info/static/css/main.ccc00bd7.css",
-    "main.js": "/todotoday-info/static/js/main.717d53c3.js",
+    "main.js": "/todotoday-info/static/js/main.71ce1729.js",
     "static/js/787.381d4680.chunk.js": "/todotoday-info/static/js/787.381d4680.chunk.js",
     "static/media/rest_day.png": "/todotoday-info/static/media/rest_day.a6f80a528881762da876.png",
     "static/media/home_list_view.png": "/todotoday-info/static/media/home_list_view.60d6fff1e84dd2b1d806.png",
@@ -15,11 +15,11 @@
     "static/media/app_icon.png": "/todotoday-info/static/media/app_icon.4557360a45c98fb83906.png",
     "index.html": "/todotoday-info/index.html",
     "main.ccc00bd7.css.map": "/todotoday-info/static/css/main.ccc00bd7.css.map",
-    "main.717d53c3.js.map": "/todotoday-info/static/js/main.717d53c3.js.map",
+    "main.71ce1729.js.map": "/todotoday-info/static/js/main.71ce1729.js.map",
     "787.381d4680.chunk.js.map": "/todotoday-info/static/js/787.381d4680.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccc00bd7.css",
-    "static/js/main.717d53c3.js"
+    "static/js/main.71ce1729.js"
   ]
 }
