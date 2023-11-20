@@ -20,9 +20,12 @@ const Home = () => {
         </div>
       </div>
       <div className='homeFooter'>
-        <h2>Join the Public Beta*</h2>
-        <p>*iOS only, Available on the App Store soon</p>
-        <a href='https://testflight.apple.com/join/p8pA5YWa' className='appLink' target='_blank' rel='noreferrer'>Join Beta</a>
+        <div className='linkBox'>
+          <h2>Join the Public Beta*</h2>
+          <p>*iOS only, Available on the App Store soon</p>
+          <a href='https://testflight.apple.com/join/p8pA5YWa' className='appLink' target='_blank' rel='noreferrer'>Join Beta</a>
+        </div>
+        <p className='name'>Daniel Glynn</p>
       </div>
  
       

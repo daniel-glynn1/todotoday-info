@@ -69,6 +69,9 @@ const Features = () => {
           <img className='screenshot' src={HomeCompleted} alt='Todo Today Home Completed View' />
         </div>
       </div>
+      <div className='smallFooter'>
+        <p className='smallName'>Daniel Glynn</p>
+      </div>
     </div>
   );
 };

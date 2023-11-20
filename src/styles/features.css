@@ -6,7 +6,6 @@
   gap: 50px;
   gap: 50px;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 
@@ -34,6 +33,24 @@
   width: 100%;
   height: 10px;
   background-color: var(--fill);
+}
+
+.smallFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; 
+  gap: 0px; 
+  width: 100%;
+  padding: 5px;
+  background-color: var(--fill);
+  margin-top: auto;
+}
+
+
+.smallName {
+  font-size: 0.6rem;
+  padding-right: 5px;
 }
 
 @media (max-width: 750px) {

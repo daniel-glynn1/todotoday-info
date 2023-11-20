@@ -50,15 +50,29 @@ em {
 .homeFooter {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 0px; 
+  width: 100%;
+  background-color: var(--fill);
+  margin-top: auto;
+}
+
+.name {
+  font-size: 0.6rem;
+  align-self: flex-end;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center; 
   gap: 15px; 
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 100%;
-  background-color: var(--fill);
-  margin-top: auto;
-  
 }
 
 .appLink {
