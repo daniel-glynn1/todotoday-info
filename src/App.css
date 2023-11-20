@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #4314DD;
+  --primary-dark: #2B0B91;
+  --primary-darker: #1A0A5D;
+  --primary-darkest: #0D052E;
+  --secondary: #00A6ED;
+  --tertiary: #FF312E;
+  --fourth: #2CDA9D;
+  --black: #000;
+  --fill: #00000040;
+  --text: #fff;
+  --gray: #aaa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
+  background-color: var(--primary);
+  background: linear-gradient(to bottom, var(--primary-darker) , var(--primary-darker));
+  /* background-attachment: fixed; */
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.header {
+  background-color: var(--fill);
+
+  padding: 15px;
+
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.nameLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+nav a {
+  color: var(--gray);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  color: var(--text);
+}
+
+nav a.active {
+  color: var(--text); /* Change this to the color you want for the active link */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Responsive styles */
+@media (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nameLogo {
+    width: 100%;
+    align-self: flex-start;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.0rem;
+  }
+
+  nav a {
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
   }
 }
+
+
