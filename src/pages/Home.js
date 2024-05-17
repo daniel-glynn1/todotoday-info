@@ -21,9 +21,8 @@ const Home = () => {
       </div>
       <div className='homeFooter'>
         <div className='linkBox'>
-          <h2>Download soon</h2>
-          <p>*iOS only, Available on the App Store soon</p>
-          {/* <a className='appLink' target='_blank' rel='noreferrer'>Download</a> */}
+          <a className='appLink' href='https://apps.apple.com/us/app/todo-today-habit-tracker/id6461381991' target='_blank' rel='noreferrer'>Download (iOS Only)</a>
+          {/* <p>*iOS only</p> */}
         </div>
         <p className='name'>Daniel Glynn</p>
       </div>
